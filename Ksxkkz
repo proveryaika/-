@@ -1,0 +1,28 @@
+f broad rewrites.
+- Tests for online/offline updates, multi-device sessions, read state, media,
+  and channel behavior.
+- Performance work on hot paths such as fan-out, pagination, storage queries,
+  media upload/download, and connection handling.
+
+If a change affects visible client behavior, please include the client
+version/commit, the RPC path you tested, and whether server logs stayed free
+of new `NOT_IMPLEMENTED`, `Unhandled RPC`, `bad_msg`, panic, or internal errors.
+
+## 💬 Community
+
+- 📢 Channel: [@owpengram](https://t.me/owpengram)
+- 💬 Chat: [Join the discussion](https://t.me/+sVB6Ymv70jEwNTAy)
+
+OwpenGram Server is an independent project with its own codebase and its own
+MTProto library, [owpengram-td](https://github.com/owpengram/owpengram-td)
+(built on [gotd/td](https://github.com/gotd/td)). It originally started from the
+open-source [gramsrv](https://github.com/iamxvbaba/gramsrv) project, which we
+thank for the foundation.
+
+## 📄 License
+
+[Apache License 2.0](LICENSE)
+
+---
+
+⭐ If OwpenGram is useful to you, a star on GitHub helps the project grow.
